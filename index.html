@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ezra's Portfolio</title>
+
+        <!--Bootstrap links, CSS, JQUERY, JavaScript-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<header class="jumbotron text-center animate-bottom noOverflow relativeP">
+	  <div class="logo">
+	  	<h1 class="myName">Ezra Assefa</h1>
+	  	<p>Full Stack Web Developer (In Training)</p>
+	  </div>
+	</header>
+
+    <nav class="container padding5" id="navigator">
+            <ul class="nav nav-pills nav-justified padding-zero">
+              <li class="nav-item" id="navWho">
+                <a class="nav-link hover-light">About Me</a>
+              </li>
+              <li class="nav-item" id="navPortfolio">
+                <a class="nav-link hover-light">Portfolio</a>
+              </li>
+              <li class="nav-item" id="navResume">
+                <a class="nav-link hover-light">Resume</a>
+              </li>
+              <li class="nav-item" id="navContact">
+                <a class="nav-link hover-light">Contact</a>
+              </li>
+            </ul>
+        </nav>
+	
+
+	<section class="modal fade" id="resumeModal" tabindex="-1" role="dialog">
+      	<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<a href="assets/pics/Ezra Assefa Resume.pdf" target="_blank">Download PDF Resume</a>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		      			<span aria-hidden="true">&times;</span>
+		    		</button>
+				</div>
+				
+			</div>
+ 		</div>
+    </section>
+
+	<section class="container-fluid" id="who">
+		<div class="row">
+			<div class="col-sm-5 relativeP row-height noOverflow paddingRight">
+				<div class="relativeP row-height slide_in" id="chargingBull">
+					<div class="slide_in_Text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-7 row-height" id="whoMobile">
+				<div class="row">
+					<div class="col-sm-7 paddingRight noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="myCity">
+							<div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5 paddingZero noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="coding">
+							<!-- <div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 paddingTopRight noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="profilePic">
+							<!-- <div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div> -->
+						</div>
+					</div>
+					<div class="col-sm-8 paddingTop noOverflow">
+						<div class="relativeP row-heightHalf slide_in" id="clemson">
+							<div class="slide_in_Text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut atque quam nam. Consequatur distinctio consectetur sunt vero saepe. Vero facere, voluptate enim in, quam maxime sunt laudantium? Nulla, dolor.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</section>
+
+	<section class="container" id="portfolio">
+		<div class="row mb-80">
+			<div class="col-sm-6">
+				<img src="assets/pics/whatshappenin.png" width="90%">
+			</div>
+			<div class="col-sm-6">
+				<h4 class="mt-60">What's Happenin?</h4>
+				<p>An application that takes in your location and how much time you have to kill and gives you options around you based on those parameters. Never be bored again.</p>
+				<a href="https://ezassefa.github.io/whats-happenin/" class="btn btn-default" target="_blank">Visit the Site</a>
+			</div>
+		</div>
+		<div class="row mb-80">
+			<div class="col-sm-6 text-right">
+				<h4 class="mt-60">Project 2</h4>
+				<p>Coming Soon</p>
+			</div>
+			<div class="col-sm-6">
+				<img src="assets/pics/comingsoon.png">
+			</div>
+		</div>
+		<div class="row mb-80">
+			<div class="col-sm-6">
+				<img src="assets/pics/comingsoon.png">
+			</div>
+			<div class="col-sm-6">
+				<h4 class="mt-60">Project 3</h4>
+				<p>Coming Soon</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid text-center" id="footer">
+		<div class="row">
+			<div class="col-sm-4" id="contact">
+				<p>Contacts</p>
+				<hr>
+				<div id="socialLinks">
+					<a id="resumeEmail" href="mailto:ezrassefa@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+					<a id="resumePhone" href="tel:678-447-3906"><span class="glyphicon glyphicon-earphone"></span></a>
+					<a href="https://github.com/ezassefa" target="_blank"><img id="git" src="assets/pics/github.png" alt="github"></a>
+					<a href="https://www.linkedin.com/in/ezra-assefa-b74a18138/" target="_blank"><img id="link" src="assets/pics/linkedin.png" alt="linked-in"></a>
+				</div>	
+			</div>
+		</div>
+		<div class="row text-center margin-top">
+			<div class="col-sm-12" id="copyright">&copy Copyright - Ezra Assefa 2019</div>
+		</div>
+	</footer>
+
+<script src="assets/javascript/main.js"></script>
+</body>
+</html>
